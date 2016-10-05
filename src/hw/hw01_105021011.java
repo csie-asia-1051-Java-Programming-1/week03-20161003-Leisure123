@@ -14,7 +14,7 @@ public class hw01_105021011 {
 		long n = scn.nextLong();
 		int sum = 0;
 		while(n > 0){
-			sum = (int)sum ++;
+			sum = (int)sum + 1;
 			n = n / 10;
 		}
 		System.out.println("此數為" + sum + "位數");
